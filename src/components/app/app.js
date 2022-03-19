@@ -34,7 +34,6 @@ export default class App extends Component {
 
               <Routes>
                 <Route path="/" element={<h2>Welcome to StartDB React Application</h2>} />
-                {/*<Route path="/people" element={<PeoplePage />}  />*/}
                 <Route path="/people">
                   <Route path=":id" element={<PeoplePage />} />
                   <Route path="" element={<PeoplePage />} />
