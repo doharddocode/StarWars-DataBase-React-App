@@ -13,7 +13,7 @@ import PlanetsPage from "../pages/planets-page";
 import StarshipsPage from "../pages/starships-page";
 
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import {PersonDetails, PlanetDetails, StarshipDetails} from "../sw-components";
+import {PlanetDetails, StarshipDetails} from "../sw-components";
 import PageNotFound from "../page-not-found/page-not-found";
 
 export default class App extends Component {
