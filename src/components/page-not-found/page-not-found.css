@@ -1,0 +1,18 @@
+.page-404 {
+  width: 100%;
+  margin-top: 5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #c78f22;
+}
+
+.page-404 img {
+  width: 70px;
+  height: auto;
+  margin-bottom: 2rem;
+}
+
+.page-404 .boom {
+  font-size: 1.7rem;
+}
